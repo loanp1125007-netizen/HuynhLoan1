@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThS. Huỳnh Thị Thúy Loan - Giảng viên Khoa Công nghệ</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #0f766e; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #0d5e58; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 relative">
+    
+    <!-- Background Image with Overlay -->
+    <div class="fixed inset-0 z-0 pointer-events-none">
+        <div class="absolute inset-0 bg-[url('https://cdn.haitrieu.com/wp-content/uploads/2021/09/Logo-DNTU-Dong-Nai-Technology-University.png')] bg-no-repeat bg-center bg-contain opacity-5"></div>
+        <!-- Note: Using the logo as a watermark since a high-res campus photo URL is not guaranteed to be permanent. -->
+    </div>
+
+    <div class="min-h-screen flex flex-col md:flex-row relative z-10">
+
+        <!-- LEFT SIDEBAR (Personal Info) -->
+        <aside class="w-full md:w-1/3 lg:w-1/4 bg-teal-800 text-white flex-shrink-0 md:h-screen md:sticky md:top-0 overflow-y-auto">
+            <div class="p-8 flex flex-col items-center text-center">
+                <!-- Avatar Placeholder -->
+                <div class="w-40 h-40 rounded-full border-4 border-teal-400 overflow-hidden mb-6 shadow-lg bg-white">
+                    <!-- Placeholder for Google Scholar Image. Replaced generic avatar with a more professional placeholder or the specific one if accessible. -->
+                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=iH5JtRsAAAAJ&citpid=1" onerror="this.src='https://ui-avatars.com/api/?name=Huynh+Thi+Thuy+Loan&background=random&size=256&font-size=0.33'" alt="ThS. Huỳnh Thị Thúy Loan" class="w-full h-full object-cover">
+                </div>
+                
+                <h1 class="text-2xl font-bold mb-2">Huỳnh Thị Thúy Loan</h1>
+                <p class="text-teal-200 font-medium mb-1">Thạc sĩ - Giảng viên</p>
+                <p class="text-teal-100 text-sm mb-6">Khoa Công nghệ<br>Trường Đại học Công Nghệ Đồng Nai</p>
+
+                <!-- Contact Info -->
+                <div class="w-full space-y-4 text-left text-sm text-teal-50">
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-calendar-alt w-5 text-center"></i>
+                        <span>1989 – Đồng Nai</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-flask w-5 text-center"></i>
+                        <span>CN: Công nghệ thực phẩm</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-phone w-5 text-center"></i>
+                        <a href="tel:0933425432" class="hover:text-white transition">0933.425.432</a>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fas fa-envelope w-5 text-center"></i>
+                        <a href="mailto:huynhthithuyloan@dntu.edu.vn" class="hover:text-white transition break-all">huynhthithuyloan@dntu.edu.vn</a>
+                    </div>
+                </div>
+
+                <!-- Social / Academic Links -->
+                <div class="mt-8 w-full flex justify-center gap-4">
+                    <a href="https://scholar.google.com.vn/citations?hl=vi&user=iH5JtRsAAAAJ" target="_blank" title="Google Scholar" class="w-10 h-10 rounded-full bg-teal-700 flex items-center justify-center hover:bg-teal-600 transition shadow-md">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="https://orcid.org/0009-0002-4266-668X" target="_blank" title="ORCID" class="w-10 h-10 rounded-full bg-teal-700 flex items-center justify-center hover:bg-teal-600 transition shadow-md">
+                        <i class="fab fa-orcid"></i>
+                    </a>
+                </div>
+                <div class="mt-4 text-xs text-teal-300">
+                    <p>ORCID: 0009-0002-4266-668X</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- RIGHT MAIN CONTENT -->
+        <main class="flex-1 p-6 md:p-12 lg:p-16 bg-white">
+            
+            <!-- Mobile Toggle (Hidden on Desktop) -->
+            <div class="md:hidden mb-6 border-b pb-4">
+                <p class="text-sm text-gray-500">Lướt xuống để xem thông tin chi tiết</p>
+            </div>
+
+            <!-- Mission & Values -->
+            <section class="mb-12">
+                <div class="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg shadow-sm">
+                    <h2 class="text-xl font-bold text-teal-800 mb-3"><i class="fas fa-bullseye mr-2"></i>Sứ mệnh</h2>
+                    <p class="italic text-gray-700 mb-4">“Gắn kết tri thức – xây dựng tương lai phát triển bền vững và phục vụ cộng đồng”</p>
+                    
+                    <h2 class="text-xl font-bold text-teal-800 mb-3"><i class="fas fa-heart mr-2"></i>Giá trị cốt lõi</h2>
+                    <p class="text-gray-700">
+                        <span class="font-semibold">Sai để học – Sửa để giỏi</span> <br> 
+                        <span class="italic text-gray-500">“Thép muốn cứng phải rèn, người muốn giỏi phải học”</span>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-user-graduate"></i></span>
+                    Quá trình đào tạo
+                </h2>
+                <div class="space-y-6 relative border-l-2 border-gray-200 ml-3 pl-8">
+                    <!-- Item -->
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 bg-white border-2 border-teal-600 w-5 h-5 rounded-full"></span>
+                        <h3 class="text-lg font-bold text-gray-800">Kỹ sư ngành Công nghệ thực phẩm</h3>
+                        <p class="text-teal-700 font-medium">2011 | ĐH Bà Rịa – Vũng Tàu</p>
+                    </div>
+                    <!-- Item -->
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 bg-white border-2 border-teal-600 w-5 h-5 rounded-full"></span>
+                        <h3 class="text-lg font-bold text-gray-800">Thạc sĩ ngành Công nghệ thực phẩm và đồ uống</h3>
+                        <p class="text-teal-700 font-medium">2016 | ĐH Bách Khoa Thành Phố Hồ Chí Minh</p>
+                    </div>
+                    <!-- Item -->
+                    <div class="relative">
+                        <span class="absolute -left-[41px] top-1 bg-white border-2 border-teal-600 w-5 h-5 rounded-full"></span>
+                        <h3 class="text-lg font-bold text-gray-800">Cử nhân ngôn ngữ Anh</h3>
+                        <p class="text-teal-700 font-medium">2025 | ĐH Công nghệ Đồng Nai</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-briefcase"></i></span>
+                    Quá trình công tác
+                </h2>
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 shadow-sm hover:shadow-md transition">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
+                            <h3 class="font-bold text-lg">Trưởng nhóm Research and Development</h3>
+                            <span class="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">2011 - 2012</span>
+                        </div>
+                        <p class="text-teal-700">Công ty ANCO</p>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 shadow-sm hover:shadow-md transition">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2">
+                            <h3 class="font-bold text-lg">Giảng viên Khoa Công Nghệ</h3>
+                            <span class="text-sm text-white bg-teal-600 px-2 py-1 rounded">2012 - Nay</span>
+                        </div>
+                        <p class="text-teal-700">Trường ĐH Công Nghệ Đồng Nai</p>
+                        <div class="mt-3">
+                            <p class="font-semibold text-sm text-gray-600 mb-2">Lĩnh vực giảng dạy:</p>
+                            <ul class="flex flex-wrap gap-2">
+                                <li class="bg-teal-50 text-teal-800 text-xs px-3 py-1 rounded-full border border-teal-200">Công nghệ lạnh</li>
+                                <li class="bg-teal-50 text-teal-800 text-xs px-3 py-1 rounded-full border border-teal-200">Phân tích thực phẩm</li>
+                                <li class="bg-teal-50 text-teal-800 text-xs px-3 py-1 rounded-full border border-teal-200">Đánh giá cảm quan</li>
+                                <li class="bg-teal-50 text-teal-800 text-xs px-3 py-1 rounded-full border border-teal-200">Xử lý số liệu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Awards -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-trophy"></i></span>
+                    Khen thưởng & Giải thưởng KHCN
+                </h2>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">01</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Mô hình sản xuất tinh bột nghệ</h4>
+                            <p class="text-sm text-gray-600">Giải ba hội thi sáng tạo kỹ thuật tỉnh Đồng Nai 2018</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">02</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Sữa đặc từ hạt</h4>
+                            <p class="text-sm text-gray-600">Giải khuyến khích hội thi sáng kiến, sáng tạo tỉnh Đồng Nai 2019</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">03</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Nước bưởi cô đặc ứng dụng trên thiết bị cô đặc cải tiến kết hợp làm nguội</h4>
+                            <p class="text-sm text-gray-600">Đạt giải ba trong Chương trình phát huy sáng kiến và sáng tạo trong lao động và học tập tỉnh Đồng Nai 2021</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">04</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Nghiên cứu quy trình sản xuất cao trà gạo lứt</h4>
+                            <p class="text-sm text-gray-600">Đạt giải ba trong Chương trình phát huy sáng kiến và sáng tạo trong lao động và học tập tỉnh Đồng Nai 2021</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">05</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Trích ly protein từ đậu gà</h4>
+                            <p class="text-sm text-gray-600">Giải khuyến khích hội thi sáng kiến, sáng tạo tỉnh Đồng Nai 2021</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">06</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ứng dụng mô hình chưng cất để chưng cất rượu mộng dừa cao độ ủ trong thùng gỗ sồi</h4>
+                            <p class="text-sm text-gray-600">Giải ba hội thi sáng kiến, sáng tạo tỉnh Đồng Nai 2023</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">07</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ứng dụng mô hình chưng cất để chưng cất rượu mộng dừa cao độ ủ trong thùng gỗ sồi</h4>
+                            <p class="text-sm text-gray-600">Đạt giải khuyến khích hội thi sáng tạo kỹ thuật Toàn quốc 2023</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">08</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Cải tiến hệ thống nấu, làm nguội, chiết rót bán tự động ứng dụng vào quy trình sản xuất các loại dịch sốt cho doanh nghiệp có quy mô sản xuất vừa và nhỏ</h4>
+                            <p class="text-sm text-gray-600">Đạt giải khuyến khích Chương trình phát huy sáng kiến, sáng tạo trong lao động và học tập tỉnh Đồng Nai năm 2024</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">09</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ứng dụng chế phẩm enzyme Bromelain trong dứa để sản xuất bột yến từ dịch yến thải trong quy trình sản xuất yến</h4>
+                            <p class="text-sm text-gray-600">Đạt giải khuyến khích cuộc thi STKT tỉnh Đồng Nai 2024</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-bold text-teal-600 text-lg min-w-[40px]">10</div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Hệ thống phát hiện nấm mốc gây bệnh trên phôi trồng nấm</h4>
+                            <p class="text-sm text-gray-600">Đạt giải nhì hội thi sáng tạo kỹ thuật Đồng Nai 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Applied Projects -->
+             <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-cogs"></i></span>
+                    Công trình áp dụng thực tiễn
+                </h2>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div class="bg-gray-50 p-4 rounded border border-gray-200">
+                        <h4 class="font-bold text-teal-800 mb-2">Công nghệ sản xuất máy ly tâm tách dầu</h4>
+                        <p class="text-sm text-gray-600 mb-2">Chuyển giao thiết bị</p>
+                        <p class="text-xs text-gray-500"><i class="fas fa-building mr-1"></i> Công ty Trần Nguyên Phát (2016 – 2017)</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded border border-gray-200">
+                        <h4 class="font-bold text-teal-800 mb-2">Quy trình sản xuất tinh bột nghệ nano</h4>
+                        <p class="text-sm text-gray-600 mb-2">Chuyển giao quy trình và thiết bị</p>
+                        <p class="text-xs text-gray-500"><i class="fas fa-building mr-1"></i> Công ty Bảo Tín Food (2017 - 2018)</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded border border-gray-200">
+                        <h4 class="font-bold text-teal-800 mb-2">Sản xuất son dưỡng môi từ bơ ca cao</h4>
+                        <p class="text-sm text-gray-600 mb-2">Chuyển giao quy trình sản xuất</p>
+                        <p class="text-xs text-gray-500"><i class="fas fa-building mr-1"></i> Công ty TNHH ca cao Trọng Đức (2018 – 2019)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Scientific Research Tasks -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-microscope"></i></span>
+                    Nhiệm vụ KHCN đã tham gia
+                </h2>
+                <ul class="space-y-3 list-disc list-inside text-gray-700">
+                    <li><span class="font-semibold">Mô hình pilot sản xuất xúc xích (2015 – 2016):</span> Thành viên – Đề tài cấp trường</li>
+                    <li><span class="font-semibold">Mô hình máy xay nghệ (2018 – 2019):</span> Chủ nhiệm đề tài – Đề tài cấp trường</li>
+                    <li><span class="font-semibold">Mô hình máy ly tâm tách dầu (2018 – 2019):</span> Chủ nhiệm đề tài – Đề tài cấp trường</li>
+                    <li><span class="font-semibold">Nghiên cứu chế biến nước uống lên men từ thanh long (2019 – 2020):</span> Chủ nhiệm đề tài – Đề tài cấp trường</li>
+                    <li><span class="font-semibold">Đa dạng hóa các sản phẩm thực phẩm từ bưởi Da xanh (2022 – 2024):</span> Chủ nhiệm đề tài – Đề tài cấp tỉnh</li>
+                </ul>
+                <div class="mt-4 bg-yellow-50 p-4 rounded border border-yellow-200">
+                    <h4 class="font-bold text-yellow-800 text-sm mb-1">Thành tựu nổi bật khác:</h4>
+                    <p class="text-sm text-gray-700">Chuỗi sản phẩm trà và cà phê gừng – Đạt giải khuyến khích Tìm kiếm ý tưởng/dự án phụ nữ khởi nghiệp đổi mới sáng tạo tỉnh Đồng Nai lần thứ 5 năm 2023</p>
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-gray-200 flex items-center">
+                    <span class="bg-teal-600 text-white p-2 rounded mr-3 text-sm"><i class="fas fa-book"></i></span>
+                    Các bài báo khoa học công bố
+                </h2>
+                
+                <div class="space-y-6 text-sm text-gray-700">
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Investigations into the composition of candles scented with Grapefruit essential oil</p>
+                        <p class="italic text-gray-500">The international conference on Emerging Technology for energy and environment (2025), ISBN – 978 – 1 – 7638136 – 0 – 1</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Lai Thi Hien</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">The international conference on Emerging Technology for energy and environment</p>
+                        <p class="italic text-gray-500">ISBN – 978 – 1 – 7638136 – 0 – 1</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Utilize guava solid residue and guava leaves during guava juice production and harvesting to reduce waste in food production in the circular economy</p>
+                        <p class="italic text-gray-500">Green Transformation in the Context of Global Change</p>
+                        <p>Tác giả: Nhung Ho Thi Ngoc, Duyen Nguyen Thi Thuy, Hien Lai Thi, Loan Huynh Thi Thuy, An Ly Thuan</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Optimizing the absorption process by using isomalt sugar to replace sucrose in the production process of dried cashew apple for dieters</p>
+                        <p class="italic text-gray-500">Green Transformation in the Context of Global Change, 2025</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Lai Thi Hien, Ho Thi Ngọc Nhung, Nguyen Thi Thuy Duyen, Nguyen Le Ha, Huynh Kim Phung</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Congener specific analysis of polychlorinated biphenyls and organochlorine pesticides in surface water and sediment from an estuary area in North Vietnam</p>
+                        <p class="italic text-gray-500">Conference Proceedings of Analytica Vietnam 2025</p>
+                        <p>Tác giả: Tu Binh Minh, Huynh Thi Thuy Loan</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Polychlorinated biphenyls and organochlorine pesticides in surface water and sediment from a tropical estuary area: Distribution, depth profile and sediment-water partition</p>
+                        <p class="italic text-gray-500">Regional Studies in Marine, 2025. https://doi.org/10.1016/j.rsma.2025.104407</p>
+                        <p>Tác giả: Trinh Thi Tham, Anh Quoc Hoang, Xuyen Thi Nguyen, Trinh Thi Thuy, Huyen Thi Thu Dong, Loan Thi Thuy Huynh, Tan Van Lam, Long Van Dang, Chau Ngoc Chu, Tri Manh Tran , Tu Binh Minh</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Application of ultrasound technique in the extraction of proteins from chickpea (cicer arietinum l.)</p>
+                        <p class="italic text-gray-500">Tạp chí Khoa học và Công nghệ Đại học Công nghệ Đồng Nai ISSN: 2815 – 6420</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Nguyen Thi Thuy Duyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Evaluation of drying methods and storage stability of protein powder from salted egg whites</p>
+                        <p class="italic text-gray-500">The 2nd Conference on Sustainability and Emerging Technologies 2024 (CSET 2024)</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Consumer Behavior and Sustainability in the Online Food Delivery Industry: A Comprehensive Review</p>
+                        <p class="italic text-gray-500">The 2nd Conference on Sustainability and Emerging Technologies 2024 (CSET 2024)</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Nguyen Thi Thuy Duyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Ultrafiltration for homogenization of wheat germ oil: water system: Droplet size distribution and stability of emulsion</p>
+                        <p class="italic text-gray-500">Food and Bioprocess Technology, 2022</p>
+                        <p>Tác giả: Quoc Dat Lai, Thi Thuy Loan Huynh, Ngoc Thuc Trinh Doan, Hoang Dung Nguyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Particle size distribution and homogenisation efficiency in high‐pressure homogenisation of wheat germ oil‐water system</p>
+                        <p class="italic text-gray-500">International Journal of Food Science & Technology, 2022</p>
+                        <p>Tác giả: Quoc Dat Lai, Thi Thuy Loan Huynh, Ngoc Thuc Trinh Doan, Hoang Dung Nguyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Effects of Acid Glutamic and Lighting on GABA Content in Germinated Brown Rice</p>
+                        <p class="italic text-gray-500">Journal of advanced research, 2020</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Ho Thi Ngoc Nhung</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Development of concentrated spinach product with vacuum evaporator</p>
+                        <p class="italic text-gray-500">Tạp chí Khoa học và Công nghệ Đại học Công nghệ Đồng Nai ISSN: 2815 – 6420, 2023</p>
+                        <p>Tác giả: Huynh Kim Phung, Ho Thi Ngoc Nhung, Lai Thi Hien, Huynh Thi Thuy Loan, Pham Hong Bao Han, Nguyen Minh Thong, Nguyen Thi Thuy Duyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Effect Of Sucrose Solution Concentration, Ultrasonic Time, Ultrasonic Temperature On The Osmotic Dehydration And Color Of Dried Mango</p>
+                        <p class="italic text-gray-500">Proceedings Of The International Conference On Science, Technology And Society Studies (STS)</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Ho Thi Ngoc Nhung</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Production of Shrimp Pork Powder for children</p>
+                        <p class="italic text-gray-500">Journal of Advanced Research in Food Science and Nutrition, 2020</p>
+                        <p>Tác giả: Nguyen Thi Thuy Duyen, Nguyen Thi Le Phuong, Huynh Thi Thuy Loan, Ho Thi Ngoc Nhung, Nguyen Thi Ngat, Mai Hoai Nam, Huynh Quoc Hung, Le Thi My Nhan</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Development Of Soursop Jelly Candy With Addition Of Soursop Leaves Extract</p>
+                        <p class="italic text-gray-500">Kỷ yếu Hội thảo Smart Convergence Of Culture Technology, 2020</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Nguyen Thi Thuy Duyen</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Production Of Gragon Juice With The Addition Of Snow Fungus</p>
+                        <p class="italic text-gray-500">Kỷ yếu Hội thảo Advanced And Applied Convergence & Adavanced Culture Technology</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Ho Thi Ngoc Nhung</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Rheological Properties of Dark Chocolate Replaced Cocoa Butter with Coconut Oil</p>
+                        <p class="italic text-gray-500">Journal of Advanced Research in Food Science and Nutrition, 2020</p>
+                        <p>Tác giả: Huynh Thi Thuy Loan, Ho Thi Ngoc Nhung</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Effects of germination time of soybean to the activity of soybean urease enzyme</p>
+                        <p class="italic text-gray-500">Bioresearch Communications-(BRC), 2019</p>
+                        <p>Tác giả: Ho Thi Ngoc Nhung, Huynh Thi Thuy Loan, Tran Bich Lam</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Nghiên cứu sản xuất rượu mộng dừa ủ trong thùng gỗ sồi</p>
+                        <p class="italic text-gray-500">Tạp chí Khoa học và Công nghệ Đại học Công nghệ Đồng Nai</p>
+                        <p>Tác giả: Nguyễn Thành Luân, Huỳnh Thị Thúy Loan, Hồ Thị Ngọc Nhung, Nguyễn Thị Thùy Duyên, Huỳnh Kim Phụng</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Factors affecting the quality of soybean/black sesame condensed milk</p>
+                        <p class="italic text-gray-500">Tạp chí Khoa học và Công nghệ Đại học Công nghệ Đồng Nai</p>
+                        <p>Tác giả: Ho Thi Ngoc Nhung, Nguyen Thi Thuy Duyen, Lai Thi Hien, Huynh Thi Thuy Loan, Lai Nguyen Uy Thy, Dinh Thi Cam Lien</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Nghiên cứu các yếu tố ảnh hưởng đến quá trình nảy mầm gạo lứt đã xát vỏ trấu tăng hàm lượng GABA</p>
+                        <p class="italic text-gray-500">Kỷ yếu hội nghị khoa học an toàn thực phẩm an ninh lương thực lần 3</p>
+                        <p>Tác giả: Huỳnh Thị Thúy Loan</p>
+                    </div>
+
+                    <div class="pb-4 border-b border-gray-100">
+                        <p class="font-semibold text-gray-900">Utilizing vacuum drying method to produce soursop (annona muricata) tea</p>
+                        <p class="italic text-gray-500">Advanced and Aplied Convergence Letters, 2016</p>
+                        <p>Tác giả: Huỳnh Thị Thúy Loan</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Footer -->
+            <footer class="border-t pt-6 text-center text-sm text-gray-500">
+                <p>&copy; 2025 Huỳnh Thị Thúy Loan. All rights reserved.</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script>
+        // Simple script to handle any future interactivity needs, e.g., mobile menu toggle if sidebar becomes hidden
+        console.log("Portfolio loaded successfully.");
+    </script>
+</body>
+</html>
